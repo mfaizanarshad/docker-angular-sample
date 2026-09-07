@@ -43,5 +43,5 @@ jobs:
 
             docker run -d \
               --name angular-app \
-              -p 8080:80 \
+              -p 8081:80 \
               ${{ secrets.DOCKERHUB_USERNAME }}/angular-app:latest
